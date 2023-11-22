@@ -209,7 +209,7 @@ function updateCartQuantityDisplay() {
   document.querySelector(".button-container__button-quantity").innerText = cartBook.length;
 }
 
-function saveBooks(ev) {
+/*function saveBooks(ev) {
   if (!ev.target.dataset.btnbuy) {
     return;
   }
@@ -229,4 +229,4 @@ function saveBooks(ev) {
       });
     }
   }
-}
+}*/
